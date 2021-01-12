@@ -1,0 +1,12 @@
+include-plugins: true
+haste-display-url: http://haste.jailbreaker.eu
+haste-server-url: http://haste.jailbreaker.eu/documents
+command-permission: ingamelog.use
+latest-log-file-directory: logs/latest.log
+line-break-in-plugins: true
+messages:
+  haste-content: 'Creator: %creator% \nTimestamp%timestamp%\nPlayers online: [%online%/%max%]\nPlugins(%plugin_amount%): %plugins%\n\n\n%log_content%'
+  broadcast-to-team: '§8[§e§lLOG§8] §e%creator% created a new log §e%log_url%'
+  no-permission: '§8[§e§lLOG§8] §cYou have no permissions to execute this command'
+  command-usage: '§8[§e§lLOG§8] §7Please use: /log'
+  error-white-creating: '§8[§e§lLOG§8] §cAn error occurred while reading or creating the log'
